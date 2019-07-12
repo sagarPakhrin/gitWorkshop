@@ -15,14 +15,13 @@ install git bash
 
 ## First-Time Git Setup
 `git config --list --show-origin`<br>
-
 `git config --global user.name your_name`<br>
 `git config --global user.email youremail@example.com`<br>
 
 
 ### Checking your settings
 `git config --list`<br>
-You can also check values for specific keys with `git config <key:>`<br>
+You can also check values for specific keys with<br> `git config <key:>`<br>
 `git config user.name`<br>
 `John Doe`<br>
 
@@ -46,7 +45,7 @@ You can obtain a Git repository in on of two ways
 </ol>
 
 #### Initializing a Repository in an Existing Directory
-** For Linux **
+**For Linux**
 `$ cd ~/Desktop/`<br>
-** For macOs **
+**For macOs**
 `$ cd /Users/user/Desktop`<br>
