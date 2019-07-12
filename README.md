@@ -45,7 +45,11 @@ You can obtain a Git repository in on of two ways
 </ol>
 
 #### Initializing a Repository in an Existing Directory
-**For Linux**
 `$ cd ~/Desktop/`<br>
-**For macOs**
-`$ cd /Users/user/Desktop`<br>
+`$ mkdir gitBasics && cd gitBasics`<br>
+`$ git init`<br>
+
+**Adding a file to staging**<br>
+`$ git add *.c`<br>
+`$ git add LISENCE`<br>
+`$ git commit -m "initial project version"`<br>
