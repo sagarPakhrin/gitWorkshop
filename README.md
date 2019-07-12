@@ -53,3 +53,15 @@ You can obtain a Git repository in on of two ways
 `$ git add *.c`<br>
 `$ git add LISENCE`<br>
 `$ git commit -m "initial project version"`<br>
+
+
+**To add all the files at once**
+`$git add .`
+
+
+#### Checking status of your Files
+`$git status`<br>
+`On branch master`
+`Your branch is up-to-date with 'origin/master'.`
+`nothing to commit, working directory is clean`
+it means that none of the tracked files are modified
