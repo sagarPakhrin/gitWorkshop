@@ -79,7 +79,7 @@ it means that none of the tracked files are modified
 `$git diff`<br>
 
 **if you want to see what you've staged that will go to tour next commit use `git diff
---staged`<br>
+--staged`**<br>
 
 **`git diff` will only show unstaged changed**
 
