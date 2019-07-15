@@ -144,3 +144,36 @@ int b = 0; # everythin between = and >>>> is the changes on the remote ripo
 Resolving `merge conflicts`
 ---
 * Delete everything you don't want and commit the changes and push
+
+
+#### Git resetting
+git reset #resetting to a stable version of the code
+	- `git reset --hard <commit>`
+		resets code back to a previous commit
+	- `git reset --hard origin/master`
+		reverts code back to remote repository version
+
+
+## Branching
+It allows you to have a multiple version of files in the same ripo. It allows you to keep you a
+stable version of the code unmodified and create a branch off to a new branch and add new features.
+and when you feel ready you can merge with the master branch.
+
+* Branch if a version of the repository
+* Each branch has its own commit history of the current version
+
+```shell
+$ git branch 
+#this will show all the branches
+$ git branch new_branch
+# this will create a new branch called new_branch 
+
+# to change to the new branch hit
+$ git checkout new_branch
+
+# if you'd like to combine two steps you can use the command
+$ git checkout -b new_branch
+```
+
+After creating new branch and making required changes, you checkout to the master branch and merge
+new_branch
