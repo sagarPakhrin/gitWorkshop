@@ -50,6 +50,7 @@ You can obtain a Git repository in on of two ways
 `$ git init`<br>
 
 
+### Lifecycle of Fiels in Git
 <img src="./images/workflow.PNG">
 
 **Adding a file to staging**<br>
