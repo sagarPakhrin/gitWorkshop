@@ -19,9 +19,10 @@ install git bash
 
 
 ## First-Time Git Setup
-`git config --list --show-origin`<br>
-`git config --global user.name your_name`<br>
-`git config --global user.email youremail@example.com`<br>
+```$ git config --list --show-origin
+$ git config --global user.name your_name
+$ git config --global user.email youremail@example.com
+```
 
 
 ### Checking your settings
