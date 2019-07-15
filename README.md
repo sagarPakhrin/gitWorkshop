@@ -63,10 +63,10 @@ $ git commit -m "Hello world"
 $ git commit -am "combined steps"
 #or 
 $ git commit -a
+#To add all the files at once**
+$git add .
 ```
 
-**To add all the files at once**
-`$git add .`
 
 
 #### Checking status of your Files
@@ -108,14 +108,6 @@ if you want to see what you've staged that will go to tour next commit use <br>
 `$ git push origin master`<br>
 
 
-## Collaborating with others 
-1. Fork the project
-2. Pull the forked ripo from you ripo
-3. Make desired changes
-4. Push the changes to your ripo
-5. Create pull request
-6. Add upstream of the original ripo
-7. Pull upstream
 
 ```shell
 $ git remote add upstream https://github.com/sagarPakhrin/gitBasics
@@ -175,3 +167,12 @@ $ git checkout -b new_branch
 
 After creating new branch and making required changes, you checkout to the master branch and merge
 new_branch
+
+## Collaborating with others 
+1. Fork the project
+2. Pull the forked ripo from you ripo
+3. Make desired changes
+4. Push the changes to your ripo
+5. Create pull request
+6. Add upstream of the original ripo
+7. Pull upstream
