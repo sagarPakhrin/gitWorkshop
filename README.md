@@ -1,4 +1,4 @@
-j Git Workship
+# Git Workship
 
 ## installing git
 ##### Installing on Linux
