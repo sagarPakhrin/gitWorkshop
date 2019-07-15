@@ -49,6 +49,9 @@ You can obtain a Git repository in on of two ways
 `$ mkdir gitBasics && cd gitBasics`<br>
 `$ git init`<br>
 
+
+<img src="./images/workflow.PNG">
+
 **Adding a file to staging**<br>
 `$ git add *.c`<br>
 `$ git add LISENCE`<br>
