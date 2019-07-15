@@ -14,10 +14,6 @@ $ sudo apt install git-all
 $ sudo apt install git
 ```
 
-##### Installing on Windows
-install git bash
-
-
 ## First-Time Git Setup
 ```$ git config --list --show-origin
 $ git config --global user.name your_name
@@ -38,17 +34,15 @@ if you ever need help using git, there are three ways to get help
 `$git <verb> --help`<br>
 `man git-<verb>`
 
-###### for example
+
+for example<br>
 `git help config`<br>
 
 
 # Git Basics
-
 You can obtain a Git repository in on of two ways
-<ol>
-	<li>You can turn local directory into a git repository</li>
-	<li>You can clone an existing Git repository from elsewhere</li>
-</ol>
+* You can turn local directory into a git repository
+* You can clone an existing Git repository from elsewhere
 
 #### Initializing a Repository in an Existing Directory
 `$ cd ~/Desktop/`<br>
