@@ -4,7 +4,9 @@ j Git Workship
 ##### Installing on Linux
 ```shell
 $ sudo dnf install git-all
+# or
 $ sudo apt install git-all
+# or
 $ sudo apt install git
 ```
 
