@@ -114,3 +114,14 @@ or<br>
 `$ git remote add origin git@github.com:username/ripo`<br>
 `$ git push origin master`<br>
 
+
+## Collaborating with others 
+
+
+
+
+`$ git remote add upstream https://github.com/sagarPakhrin/gitWorkshop`
+`$git remote -v`
+`$git pull upstream`<br>
+**OR**
+`$git fetch upstream`
