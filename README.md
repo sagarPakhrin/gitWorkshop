@@ -1,13 +1,12 @@
-# Git Workship
+j Git Workship
 
 ## installing git
 ##### Installing on Linux
-`sudo dnf install git-all`<br>
-<br> Or </br>
-`sudo apt install git-all`<br>
-<br> Or </br>
-`sudo apt install git`
-
+```shell
+$ sudo dnf install git-all
+$ sudo apt install git-all
+$ sudo apt install git
+```
 
 ##### Installing on Windows
 install git bash
@@ -120,8 +119,8 @@ or<br>
 
 
 
-`$ git remote add upstream https://github.com/sagarPakhrin/gitWorkshop`
+`$ git remote add upstream https://github.com/sagarPakhrin/gitBasics`
 `$git remote -v`
-`$git pull upstream`<br>
+`$git pull upstream master`<br>
 **OR**
-`$git fetch upstream`
+`$git fetch upstream master`<br>
