@@ -1,5 +1,9 @@
 # Git Workship
 
+## Introduction
+**What is git?**
+
+
 ## installing git
 ##### Installing on Linux
 ```shell
@@ -51,13 +55,15 @@ You can obtain a Git repository in on of two ways
 `$ git init`<br>
 
 
-### Lifecycle of Fiels in Git
+### Lifecycle of files in Git
 <img src="./images/workflow.PNG">
 
 **Adding a file to staging**<br>
-`$ git add *.c`<br>
-`$ git add LISENCE`<br>
-`$ git commit -m "initial project version"`<br>
+```shell
+$ git add *.c<br>
+$ git add LISENCE<br>
+$ git commit -m "initial project version"<br>
+```
 
 
 **To add all the files at once**
@@ -65,11 +71,13 @@ You can obtain a Git repository in on of two ways
 
 
 #### Checking status of your Files
-`$git status`<br>
-`On branch master`
-`Your branch is up-to-date with 'origin/master'.`
-`nothing to commit, working directory is clean`
-it means that none of the tracked files are modified
+```shell
+$git status<br>
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory is clean
+#it means that none of the tracked files are modified
+```
 
 
 **Tracking new Files**
@@ -83,8 +91,8 @@ it means that none of the tracked files are modified
 `$git status`<br>
 `$git diff`<br>
 
-**if you want to see what you've staged that will go to tour next commit use `git diff
---staged`**<br>
+if you want to see what you've staged that will go to tour next commit use 
+```git diff --staged```<br>
 
 **`git diff` will only show unstaged changed**
 
@@ -117,8 +125,6 @@ or<br>
 
 
 ## Collaborating with others 
-
-
 
 
 `$ git remote add upstream https://github.com/sagarPakhrin/gitBasics`
