@@ -147,7 +147,7 @@ Resolving `merge conflicts`
 
 
 #### Git resetting
-git reset #resetting to a stable version of the code
+- `git reset` #resetting to a stable version of the code
 - `git reset --hard <commit>` resets code back to a previous commit
 - `git reset --hard origin/master` reverts code back to remote repository version
 
