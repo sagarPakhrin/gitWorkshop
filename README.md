@@ -41,25 +41,29 @@ for example<br>
 
 # Git Basics
 You can obtain a Git repository in on of two ways
-* You can turn local directory into a git repository
-* You can clone an existing Git repository from elsewhere
+1. You can turn local directory into a git repository
+2. You can clone an existing Git repository from elsewhere
 
-#### Initializing a Repository in an Existing Directory
-`$ cd ~/Desktop/`<br>
-`$ mkdir gitBasics && cd gitBasics`<br>
-`$ git init`<br>
-
+## Initializing a Repository in an Existing Directory
+```shell$ 
+cd ~/Desktop/
+$ mkdir gitBasics && cd gitBasics
+$ git init
+```
 
 ### Lifecycle of files in Git
 <img src="./images/workflow.PNG">
 
 **Adding a file to staging**<br>
 ```shell
-$ git add *.c<br>
-$ git add LISENCE<br>
-$ git commit -m "initial project version"<br>
-```
+$ git add hello_world.py<br>
+$ git commit -m "Hello world"
 
+# Combining these two steps
+$ git commit -am "combined steps"
+#or 
+$ git commit -a
+```
 
 **To add all the files at once**
 `$git add .`
@@ -67,11 +71,10 @@ $ git commit -m "initial project version"<br>
 
 #### Checking status of your Files
 ```shell
-$git status<br>
+$ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
 nothing to commit, working directory is clean
-#it means that none of the tracked files are modified
 ```
 
 
@@ -92,23 +95,6 @@ if you want to see what you've staged that will go to tour next commit use
 **`git diff` will only show unstaged changed**
 
 
-#### Committing your changes
-
-Simplest way<br>
-`$git commit`<br>
-Then an editor will appear, type the commit message and exit the editor.
-
-**or you can use a flag**
-`$git commit -m "Bug number 198Af4: Fix benchmarks for speed"`<br>
-
-
-##### Skipping the staged area
-use -a flag to skip staging area git will automatically stage and commit your changes<br>
-`$git commit -a`<br>
-or<br>
-`$git commit -am "Bug number 14Afx: Fixed"`<br>
-
-
 ## Connecting to github
 * got git [GitHub](http://github.com) 
 * Log in to you account
@@ -121,9 +107,10 @@ or<br>
 
 ## Collaborating with others 
 
-
-`$ git remote add upstream https://github.com/sagarPakhrin/gitBasics`
-`$git remote -v`
-`$git pull upstream master`<br>
-**OR**
-`$git fetch upstream master`<br>
+```shell
+$ git remote add upstream https://github.com/sagarPakhrin/gitBasics
+$git remote -v
+$git pull upstream master<br>
+# OR**
+$git fetch upstream master<br>
+```
