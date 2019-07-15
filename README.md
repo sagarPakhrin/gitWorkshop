@@ -79,17 +79,20 @@ nothing to commit, working directory is clean
 
 
 **Tracking new Files**
-`$echo 'My Project' > README`<br>
-`$git status`<br>
-
+```shell
+$echo 'My Project' > README<br>
+$git status<br>
+```
 
 #### Viewing your staged and unstaged changes
 
 
-`$git status`<br>
-`$git diff`<br>
+```shell
+$git status<br>
+$git diff<br>
+```
 
-if you want to see what you've staged that will go to tour next commit use 
+if you want to see what you've staged that will go to tour next commit use <br>
 ```git diff --staged```<br>
 
 **`git diff` will only show unstaged changed**
@@ -106,6 +109,14 @@ if you want to see what you've staged that will go to tour next commit use
 
 
 ## Collaborating with others 
+1. Fork the project
+2. Pull the forked ripo from you ripo
+3. Make desired changes
+4. Push the changes to your ripo
+5. Create pull request
+6. Add upstream of the original ripo
+7. Pull upstream
+
 
 ```shell
 $ git remote add upstream https://github.com/sagarPakhrin/gitBasics
