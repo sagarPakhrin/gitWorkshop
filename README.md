@@ -1,4 +1,4 @@
-# Git Workship
+# Git Workshop
 
 ## Introduction
 **What is git?**
@@ -51,7 +51,7 @@ $ mkdir gitBasics && cd gitBasics
 $ git init
 ```
 
-### Lifecycle of files in Git
+### Life cycle of files in Git
 <img src="./images/workflow.PNG">
 
 **Adding a file to staging**<br>
@@ -99,7 +99,7 @@ if you want to see what you've staged that will go to tour next commit use <br>
 
 
 ## Connecting to github
-* got git [GitHub](http://github.com) 
+* Go to [GitHub](http://github.com) 
 * Log in to you account
 * Create new repository
 * push existing ripo 
@@ -117,11 +117,30 @@ if you want to see what you've staged that will go to tour next commit use <br>
 6. Add upstream of the original ripo
 7. Pull upstream
 
-
 ```shell
 $ git remote add upstream https://github.com/sagarPakhrin/gitBasics
 $git remote -v
 $git pull upstream master<br>
-# OR**
+# OR
 $git fetch upstream master<br>
 ```
+
+
+## Merging Conflicts
+Git keeps track of all the changes you make to your file. But what happens if you make changes to a
+file in say line 101 and some other collaborators also makes the changes to the same files and
+pushes to the same ripo? In that case git doesn't know what to do with the changes and so it creates
+`merge conflict`
+
+example of merge conflict
+```shell
+<<<<<<< HEAD 
+int a = 2; #everyting between head and the = is our local changes
+========
+int b = 0; # everythin between = and >>>> is the changes on the remote ripo
+>>>>>>>>
+
+```
+Resolving `merge conflicts`
+---
+* Delete everything you don't want and commit the changes and push
