@@ -141,7 +141,7 @@ int b = 0; # everythin between = and >>>> is the changes on the remote ripo
 >>>>>>>>
 
 ```
-Resolving `merge conflicts`
+#### Resolving `merge conflicts`
 ---
 * Delete everything you don't want and commit the changes and push
 
