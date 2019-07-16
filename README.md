@@ -176,3 +176,23 @@ new_branch
 5. Create pull request
 6. Add upstream of the original ripo
 7. Pull upstream
+
+
+## Bonus
+##### 1. Renaming your local branch
+If you are on the branch you want to rename:
+```shell
+$ git branch -m new_name
+```
+IF you are on a different branch:
+```shel
+$ git branch -m old_name new_name
+```
+##### 2. Delete the old-name remote branch and push the new-name local branch
+```shell
+$ git push origin :old_name new_name
+```
+##### 3. Reset the pustream branch for the new-name local branch
+```shell 
+$ git push origin -u name
+```
